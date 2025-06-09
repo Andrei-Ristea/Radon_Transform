@@ -3,7 +3,7 @@ Implementing the Radon Transform (line integral of a 2D function) to galaxy kine
 
 This repository contans an all-encompassing python routine Radon9.py, which implements the Radon Transform (a line integral of a 2D function) to galaxy kinematic maps. For a full description of the application of Radon transforms to galaxy kinematics see Stark et al 2018 (https://academic.oup.com/mnras/article/480/2/2217/5061639?login=false), and references therein). 
 
-The python script is heavily commented, with ample dezcriptions. The most useful function is:
+The python script is heavily commented, with ample descriptions. The most useful function is:
 
 --- radon(velmap,dx,dy,pixelres,r_app,gal_ind, plot='no' , plot_at_rho = 3.55,component='stars')
 This function performs a radon transform to the 2D galactic velocity map and returns the following:
